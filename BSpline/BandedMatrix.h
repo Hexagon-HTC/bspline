@@ -99,8 +99,8 @@ public:
         return (*this);
     }
 
-    BandedMatrix<T>(BandedMatrix<T>&) = default;
-    BandedMatrix<T>& operator=(BandedMatrix<T>&) = default;
+    BandedMatrix(BandedMatrix&) = default;
+    BandedMatrix& operator=(BandedMatrix&) = default;
 
 private:
     // Return false if coordinates are out of bounds
